@@ -22,12 +22,12 @@
   <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
   <!--main css-->
   <link href="{{asset ('backend/assets/css/bootstrap-extended.css')}}" rel="stylesheet">
-  <link href="backend/sass/main.css" rel="stylesheet">
-  <link href="backend/sass/dark-theme.css" rel="stylesheet">
-  <link href="backend/sass/blue-theme.css" rel="stylesheet">
-  <link href="backend/sass/semi-dark.css" rel="stylesheet">
-  <link href="backend/sass/bordered-theme.css" rel="stylesheet">
-  <link href="backend/sass/responsive.css" rel="stylesheet">
+  <link href="{{asset ('backend/sass/main.css')}}" rel="stylesheet">
+  <link href="{{asset ('backend/sass/dark-theme.css')}}" rel="stylesheet">
+  <link href="{{asset ('backend/sass/blue-theme.css')}}" rel="stylesheet">
+  <link href="{{asset ('backend/sass/semi-dark.css')}}" rel="stylesheet">
+  <link href="{{asset ('backend/sass/bordered-theme.css')}}" rel="stylesheet">
+  <link href="{{asset ('backend/sass/responsive.css')}}" rel="stylesheet">
     @yield('css')
 </head>
 
